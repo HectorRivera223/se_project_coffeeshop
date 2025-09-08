@@ -10,6 +10,12 @@
       content="Specialty coffee in the Triple Peaks Library"
     />
     <meta name="keywords" content="specialty, coffee, triple peaks, library" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -28,7 +34,7 @@
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#book a table" class="nav__link">Book a table</a>
+              <a href="#book-a-table" class="nav__link">Book a table</a>
             </li>
             <li>
               <a href="#menu" class="nav__link">Menu</a>
@@ -69,40 +75,37 @@
             Check out some recipes we've collected for your home-brewing
             convenience
           </p>
-          <ul class="recipes__videos">
-            <li>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=osI5qOGTv_2BuDL5"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-              <p class="recipes__videos-caption">
-                <span>Aeropress recipe</span><span>~5 Min</span>
-              </p>
-            </li>
-            <li>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/st571DYYTR8?si=QiM7zqvXlnP0HySj"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-              <p class="recipes__videos-caption">
-                <span>French Press recipe</span><span>~15 Min</span>
-              </p>
-            </li>
-          </ul>
+          <div class="recipes__videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/j6VlT_jUVPc?si=osI5qOGTv_2BuDL5"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <p class="recipes__videos-caption">
+              <span>Aeropress recipe</span><span>~5 Min</span>
+            </p>
+
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/st571DYYTR8?si=QiM7zqvXlnP0HySj"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <p class="recipes__videos-caption">
+              <span>French Press recipe</span><span>~15 Min</span>
+            </p>
+          </div>
         </section>
-        <section id="book a table" class="reservation"></section>
+        <section id="book-a-table" class="reservation"></section>
         <section id="menu" class="menu"></section>
         <section id="contacts" class="contacts"></section>
       </main>
